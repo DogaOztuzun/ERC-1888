@@ -44,7 +44,7 @@ function decodeData(encoded) {
 
 main()
   .then(() => {
-    console.log("Token deployment and minting finished.")
+    console.log("Token minting has finished.")
     process.exit(0)
   })
   .catch(error => {
