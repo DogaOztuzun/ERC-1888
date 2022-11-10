@@ -20,7 +20,7 @@ async function main() {
   // 1667250000 = 2022-11-01 00:00:00
   // let address = "0x..";
 
-  const encoded = encodeData(1664571600, 1667250000, 'Jasmine Solar', '');
+  const encoded = encodeData(1664571600, 1667250000, 'Fethiye Solar', '');
   await this.IssuerContract.requestCertification(encoded);
   // await this.IssuerContract.requestCertificationFor(encoded, adress);
 
